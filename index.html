@@ -4,45 +4,56 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>M. Meyerhoff Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    *{box-sizing:border-box} body{margin:0;background:#fff;color:#172033;font-family:Arial,Helvetica,sans-serif}.wrap{max-width:1100px;margin:auto;padding:40px 24px 56px}.header{text-align:center;margin-bottom:34px}.header h1{margin:0 0 8px;font-size:42px}.header p{margin:0;color:#5f6875;font-size:18px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}.card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #d8dee7;border-radius:12px;overflow:hidden;box-shadow:0 5px 18px rgba(0,0,0,.06)}.card:hover{box-shadow:0 9px 24px rgba(0,0,0,.10)}.shot{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;background:#eef2f6}.copy{padding:18px 20px 20px}.copy h2{font-size:21px;margin:0 0 8px}.copy p{margin:0;color:#5d6673;line-height:1.45}.open{display:inline-block;margin-top:13px;color:#194f8b;font-weight:700}.note{text-align:center;margin:28px auto 0;color:#7a828d;font-size:13px}@media(max-width:760px){.grid{grid-template-columns:1fr}.header h1{font-size:34px}}
+  </style>
 </head>
 <body>
-  <main class="simple-wrap">
-    <header class="simple-header">
+  <main class="wrap">
+    <header class="header">
       <h1>M. Meyerhoff Portfolio</h1>
-      <p>Department of Conservation • CalGEM</p>
+      <p>Department of Conservation | CalGEM</p>
     </header>
 
-    <section class="simple-grid">
-      <a class="simple-card" href="Wellstar/story.html">
-        <div class="simple-image">
-          <img src="images/wellstar-assessment.png" alt="WellSTAR competency assessment preview" onerror="this.style.display='none'; this.parentElement.classList.add('empty');" />
-          <span>WellSTAR Assessment</span>
+    <section class="grid">
+      <a class="card" href="Wellstar/story.html" target="_blank" rel="noopener">
+        <img class="shot" src="images/wellstar.svg" alt="WellSTAR competency assessment simulation screenshot" />
+        <div class="copy">
+          <h2>WellSTAR Competency Assessment</h2>
+          <p>Interactive Storyline assessment demonstrating knowledge checks, procedural sequencing, interface recognition, and simulated task performance.</p>
+          <span class="open">Launch assessment</span>
         </div>
-        <h2>WellSTAR Competency Assessment</h2>
-        <p>Interactive Storyline demo</p>
       </a>
 
-      <a class="simple-card" href="files/WellSTAR_Competency_Dashboard_Polished.xlsx">
-        <div class="simple-image">
-          <img src="images/competency-dashboard.png" alt="Competency results dashboard preview" onerror="this.style.display='none'; this.parentElement.classList.add('empty');" />
-          <span>Results Dashboard</span>
+      <a class="card" href="https://docs.google.com/spreadsheets/d/1iQbcrUiJ6P_4se0aoNFlhxotEoYNrlhC/edit?usp=drivesdk" target="_blank" rel="noopener">
+        <img class="shot" src="images/dashboard.svg" alt="WellSTAR training competency dashboard screenshot" />
+        <div class="copy">
+          <h2>Competency Results Dashboard</h2>
+          <p>Excel dashboard for learner performance, competency scoring, question analytics, confidence gain, and targeted follow up.</p>
+          <span class="open">Open dashboard</span>
         </div>
-        <h2>Competency Results Dashboard</h2>
-        <p>Assessment data and analytics</p>
       </a>
 
-      <a class="simple-card" href="files/CalGEM_Training_Operations_Workbook_Final.xlsx">
-        <div class="simple-image">
-          <img src="images/training-operations.png" alt="Training operations calendar preview" onerror="this.style.display='none'; this.parentElement.classList.add('empty');" />
-          <span>Training Operations</span>
+      <a class="card" href="https://drive.google.com/file/d/1-60gAgirQgVjC3CAAfRc_Xn8cq69BRZG/view?usp=drivesdk" target="_blank" rel="noopener">
+        <img class="shot" src="images/operations.svg" alt="CalGEM training operations calendar screenshot" />
+        <div class="copy">
+          <h2>Training Operations System</h2>
+          <p>Training coordination workbook for schedules, instructors, rooms, attendance, materials, equipment, and operational follow up.</p>
+          <span class="open">Open workbook</span>
         </div>
-        <h2>Training Operations Calendar</h2>
-        <p>Scheduling, rooms, instructors, attendance and resources</p>
+      </a>
+
+      <a class="card" href="https://drive.google.com/file/d/1q4_fPQoKE2KGvIzPpszWuoqNeTIFEt1z/view?usp=drivesdk" target="_blank" rel="noopener">
+        <img class="shot" src="images/modernization.svg" alt="CalGEM document modernization before and after screenshot" />
+        <div class="copy">
+          <h2>Document Modernization Review</h2>
+          <p>Before and after review demonstrating brand continuity, accessibility, content currency, readability, and modernization recommendations.</p>
+          <span class="open">Open PDF</span>
+        </div>
       </a>
     </section>
 
-    <p class="simple-note">Independent portfolio samples developed using publicly available CalGEM materials for interview purposes.</p>
+    <p class="note">Independent portfolio samples developed for interview purposes using publicly available CalGEM materials.</p>
   </main>
 </body>
 </html>
